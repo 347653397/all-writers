@@ -1,0 +1,1324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4e597cf3-3811-4f23-a8a2-ec7032b65219" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CI_phpStorm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DB_active_rec.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MP_verify_n8704ClRKtyCyYYX.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/config/autoload.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/config/config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/config/constants.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/config/database.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/config/doctypes.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/config/foreign_chars.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/config/form_validation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/config/hooks.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/config/memcached.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/config/migration.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/config/mimes.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/config/profiler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/config/redis.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/config/redis_keys.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/config/routes.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/config/smileys.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/config/user_agents.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/config/wechat.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/controllers/Admin/Admin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/controllers/Admin/Audio.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/controllers/Admin/Comment.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/controllers/Admin/Course.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/controllers/Admin/Feedback.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/controllers/Admin/Index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/controllers/Admin/Login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/controllers/Admin/Menu.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/controllers/Admin/Order.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/controllers/Admin/Role.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/controllers/Admin/Setting.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/controllers/Admin/Takeauction.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/controllers/Admin/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/controllers/Admin/Withdraw.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/controllers/Api/Banner.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/controllers/Api/Comment.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/controllers/Api/Common.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/controllers/Api/Course.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/controllers/Api/Data.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/controllers/Api/Notice.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/controllers/Api/Order.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/controllers/Api/Setting.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/controllers/Api/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/controllers/Api/Weixin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/controllers/Home.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/core/MY_Controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/core/MY_Loader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/core/MY_Model.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/helpers/MY_captcha_helper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/helpers/defines_helper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/helpers/functions_helper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/helpers/http_helper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/helpers/used_helper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/helpers/visitor_helper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/key/alipay/alipay_public_key.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/key/alipay/cacert.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/key/alipay/rsa_private_key.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/key/alipay/rsa_private_key_pkcs8.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/key/alipay/rsa_public_key.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/key/wechat/apiclient_cert.p12" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/key/wechat/apiclient_cert.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/key/wechat/apiclient_key.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/key/wechat/证书使用说明.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/language/english/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/libraries/Coslib.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/libraries/Qiniu.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/libraries/Redislib.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/libraries/Smslib.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/libraries/Vodlib.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/models/AdminLog_model.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/models/AdminRoleAccos_model.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/models/AdminRole_model.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/models/Admin_model.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/models/Audio_model.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/models/AuthRoleAccos_model.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/models/Auth_model.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/models/Banner_model.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/models/Category_model.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/models/CommentReply_model.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/models/ContentComment_model.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/models/ContentItems_model.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/models/ContentScore_model.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/models/CourseItem_model.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/models/CourseOrderDetails_Model.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/models/CourseOrder_Model.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/models/Course_model.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/models/Feedback_Model.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/models/RewardOrder_Model.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/models/Setting_model.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/models/TakeAuction_model.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/models/UserCashJournal_Model.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/models/User_Model.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/models/Withdraw_Model.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/tests/CI_PHPUnit_Framework_TestCase.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/tests/bootstrap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/third_party/alipay_app/alipay.config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/third_party/alipay_app/cacert.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/third_party/alipay_app/key/alipay_public_key.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/third_party/alipay_app/key/ios_pkcs8_private_key.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/third_party/alipay_app/key/rsa_private_key.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/third_party/alipay_app/lib/alipay_core.function.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/third_party/alipay_app/lib/alipay_md5.function.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/third_party/alipay_app/lib/alipay_notify.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/third_party/alipay_app/lib/alipay_rsa.function.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/third_party/alipay_app/lib/alipay_submit.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/Admin/Admin/add.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/Admin/Admin/edit.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/Admin/Admin/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/Admin/Admin/info.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/Admin/Admin/pass.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/Admin/Admin/rindex.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/Admin/Audio/add.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/Admin/Audio/edit.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/Admin/Audio/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/Admin/Comment/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/Admin/Course/add.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/Admin/Course/audio.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/Admin/Course/edit.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/Admin/Course/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/Admin/Course/index2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/Admin/Course/index3.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/Admin/Feedback/edit.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/Admin/Feedback/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/Admin/Menu/add.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/Admin/Menu/edit.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/Admin/Menu/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/Admin/Order/course_index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/Admin/Public/dialog.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/Admin/Public/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/Admin/Public/header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/Admin/Public/layout.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/Admin/Role/add.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/Admin/Role/edit.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/Admin/Role/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/Admin/Setting/addbanner.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/Admin/Setting/addcategory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/Admin/Setting/banner.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/Admin/Setting/category.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/Admin/Setting/editbanner.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/Admin/Setting/editcategory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/Admin/Setting/setting.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/Admin/Takeauction/edit.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/Admin/Takeauction/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/Admin/User/cash_journal.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/Admin/User/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/Admin/Withdraw/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/Admin/error.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/Admin/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/Admin/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/Admin/success.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/errors/cli/error_404.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/errors/cli/error_db.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/errors/cli/error_exception.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/errors/cli/error_general.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/errors/cli/error_php.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/errors/cli/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/errors/html/error_404.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/errors/html/error_db.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/errors/html/error_exception.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/errors/html/error_general.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/errors/html/error_php.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/errors/html/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/service-worker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/274a924fbc2b73442cd5aa78d0479c2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/IMG_5053.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/common-umi.dafd9d52.async.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/cos-js-sdk-v5.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/fastclick.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/fontFlex.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/iscroll-probe.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/iscroll.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/jquery-2.1.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/jweixin-1.2.0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/mescroll.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/mescroll.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/src__layouts__index.03ec7c44.async.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/src__pages__comment__$comment_list.58d89a3c.async.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/src__pages__comment__like_list__$like.a44a81fe.async.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/src__pages__comment__reward_list__$reward.dd532f47.async.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/src__pages__detai__index.212831ec.async.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/src__pages__detai__list.50abfd6d.async.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/src__pages__home__adviser_tab3.c82d26cc.async.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/src__pages__home__selected_tab1.6017d13d.async.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/src__pages__home__story_tab2.69c99fa7.async.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/src__pages__home__world_tab4.90ba342a.async.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/src__pages__index.61a30a50.async.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/src__pages__login__index.20eaabdd.async.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/src__pages__release__index.41745854.async.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/src__pages__users__auction.12ca90c1.async.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/src__pages__users__comment.c26a6395.async.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/src__pages__users__detai.28dcd07b.async.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/src__pages__users__forward.7942e012.async.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/src__pages__users__help.0ba205a4.async.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/src__pages__users__index.4caab38d.async.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/src__pages__users__order.071c0e25.async.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/src__pages__users__proposal.eb99b031.async.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/src__pages__users__submission.488dc61e.async.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/static/length.9779f5b5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/static/logo.f6317217.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/umi.414f4512.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/static/umi.bf25301d.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpunit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/bootstrap-3.3.7/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/bootstrap-3.3.7/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/bootstrap-3.3.7/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/bootstrap-3.3.7/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/bootstrap-daterangepicker/.bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/bootstrap-daterangepicker/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/bootstrap-daterangepicker/bootstrap-datepicker.zh-CN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/bootstrap-daterangepicker/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/bootstrap-daterangepicker/daterangepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/bootstrap-daterangepicker/daterangepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/bootstrap-daterangepicker/daterangepicker.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/bootstrap-daterangepicker/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/bootstrap-daterangepicker/drp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/bootstrap-daterangepicker/example/amd/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/bootstrap-daterangepicker/example/amd/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/bootstrap-daterangepicker/example/amd/require.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/bootstrap-daterangepicker/example/browserify/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/bootstrap-daterangepicker/example/browserify/bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/bootstrap-daterangepicker/example/browserify/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/bootstrap-daterangepicker/example/browserify/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/bootstrap-daterangepicker/package.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/bootstrap-daterangepicker/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/bootstrap-daterangepicker/website/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/bootstrap-daterangepicker/website/website.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/bootstrap-daterangepicker/website/website.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/build/css/custom.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/build/js/custom.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/font-awesome/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/font-awesome/css/font-awesome.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/font-awesome/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/icheck.jquery.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/icheck.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/all.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/flat/_all.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/flat/aero.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/flat/aero.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/flat/aero@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/flat/blue.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/flat/blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/flat/blue@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/flat/flat.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/flat/flat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/flat/flat@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/flat/green.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/flat/green.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/flat/green@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/flat/grey.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/flat/grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/flat/grey@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/flat/orange.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/flat/orange.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/flat/orange@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/flat/pink.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/flat/pink.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/flat/pink@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/flat/purple.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/flat/purple.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/flat/purple@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/flat/red.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/flat/red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/flat/red@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/flat/yellow.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/flat/yellow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/flat/yellow@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/futurico/futurico.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/futurico/futurico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/futurico/futurico@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/line/_all.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/line/aero.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/line/blue.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/line/green.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/line/grey.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/line/line.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/line/line.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/line/line@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/line/orange.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/line/pink.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/line/purple.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/line/red.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/line/yellow.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/minimal/_all.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/minimal/aero.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/minimal/aero.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/minimal/aero@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/minimal/blue.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/minimal/blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/minimal/blue@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/minimal/green.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/minimal/green.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/minimal/green@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/minimal/grey.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/minimal/grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/minimal/grey@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/minimal/minimal.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/minimal/minimal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/minimal/minimal@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/minimal/orange.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/minimal/orange.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/minimal/orange@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/minimal/pink.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/minimal/pink.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/minimal/pink@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/minimal/purple.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/minimal/purple.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/minimal/purple@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/minimal/red.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/minimal/red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/minimal/red@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/minimal/yellow.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/minimal/yellow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/minimal/yellow@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/polaris/polaris.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/polaris/polaris.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/polaris/polaris@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/square/_all.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/square/aero.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/square/aero.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/square/aero@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/square/blue.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/square/blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/square/blue@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/square/green.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/square/green.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/square/green@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/square/grey.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/square/grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/square/grey@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/square/orange.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/square/orange.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/square/orange@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/square/pink.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/square/pink.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/square/pink@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/square/purple.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/square/purple.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/square/purple@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/square/red.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/square/red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/square/red@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/square/square.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/square/square.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/square/square@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/square/yellow.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/square/yellow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/iCheck/skins/square/yellow@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/ico/logo_48-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/ico/logo_48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/jquery-validate/dist/jquery.validate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/jquery-validate/localization/messages_zh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/jquery/dist/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/jquery/dist/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/jquery/dist/jquery.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/layer/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/layer/mobile/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/layer/mobile/need/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/layer/skin/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/layer/skin/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/layer/skin/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/layer/skin/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/layer/skin/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/layer/skin/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/.bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/locale/af.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/locale/ar-ma.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/locale/ar-sa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/locale/ar-tn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/locale/ar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/locale/az.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/locale/be.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/locale/bg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/locale/bn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/locale/bo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/locale/br.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/locale/bs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/locale/ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/locale/cs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/locale/cv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/locale/cy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/locale/da.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/locale/de-at.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/locale/de.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/locale/dv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/locale/el.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/locale/en-au.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/locale/en-ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/locale/en-gb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/locale/en-ie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/locale/en-nz.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/locale/eo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/locale/es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/locale/et.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/locale/eu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/locale/fa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/locale/fi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/locale/fo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/locale/fr-ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/locale/fr-ch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/locale/fr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/locale/fy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/locale/gd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/locale/gl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/locale/he.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/locale/hi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/locale/hr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/locale/hu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/locale/hy-am.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/locale/id.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/locale/is.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/locale/it.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/locale/ja.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/locale/jv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/locale/ka.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/locale/kk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/locale/km.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/locale/ko.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/locale/ky.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/locale/lb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/locale/lo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/locale/lt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/locale/lv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/locale/me.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/locale/mk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/locale/ml.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/locale/mr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/locale/ms-my.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/locale/ms.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/locale/my.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/locale/nb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/locale/ne.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/locale/nl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/locale/nn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/locale/pa-in.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/locale/pl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/locale/pt-br.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/locale/pt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/locale/ro.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/locale/ru.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/locale/se.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/locale/si.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/locale/sk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/locale/sl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/locale/sq.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/locale/sr-cyrl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/locale/sr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/locale/ss.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/locale/sv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/locale/sw.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/locale/ta.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/locale/te.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/locale/th.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/locale/tl-ph.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/locale/tlh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/locale/tr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/locale/tzl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/locale/tzm-latn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/locale/tzm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/locale/uk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/locale/uz.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/locale/vi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/locale/x-pseudo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/locale/zh-cn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/locale/zh-tw.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/min/locales.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/min/locales.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/min/moment-with-locales.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/min/moment-with-locales.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/min/moment.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/min/tests.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/moment.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/moment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/lib/create/check-overflow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/lib/create/date-from-array.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/lib/create/from-anything.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/lib/create/from-array.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/lib/create/from-object.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/lib/create/from-string-and-array.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/lib/create/from-string-and-format.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/lib/create/from-string.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/lib/create/local.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/lib/create/parsing-flags.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/lib/create/utc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/lib/create/valid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/lib/duration/abs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/lib/duration/add-subtract.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/lib/duration/as.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/lib/duration/bubble.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/lib/duration/constructor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/lib/duration/create.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/lib/duration/duration.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/lib/duration/get.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/lib/duration/humanize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/lib/duration/iso-string.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/lib/duration/prototype.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/lib/format/format.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/lib/locale/calendar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/lib/locale/constructor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/lib/locale/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/lib/locale/formats.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/lib/locale/invalid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/lib/locale/lists.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/lib/locale/locale.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/lib/locale/locales.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/lib/locale/ordinal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/lib/locale/pre-post-format.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/lib/locale/prototype.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/lib/locale/relative.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/lib/locale/set.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/lib/moment/add-subtract.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/lib/moment/calendar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/lib/moment/clone.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/lib/moment/compare.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/lib/moment/constructor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/lib/moment/creation-data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/lib/moment/diff.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/lib/moment/format.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/lib/moment/from.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/lib/moment/get-set.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/lib/moment/locale.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/lib/moment/min-max.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/lib/moment/moment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/lib/moment/now.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/lib/moment/prototype.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/lib/moment/start-end-of.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/lib/moment/to-type.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/lib/moment/to.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/lib/moment/valid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/lib/parse/regex.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/lib/parse/token.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/lib/units/aliases.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/lib/units/constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/lib/units/day-of-month.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/lib/units/day-of-week.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/lib/units/day-of-year.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/lib/units/hour.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/lib/units/millisecond.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/lib/units/minute.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/lib/units/month.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/lib/units/offset.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/lib/units/quarter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/lib/units/second.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/lib/units/timestamp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/lib/units/timezone.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/lib/units/units.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/lib/units/week-calendar-utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/lib/units/week-year.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/lib/units/week.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/lib/units/year.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/lib/utils/abs-ceil.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/lib/utils/abs-floor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/lib/utils/abs-round.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/lib/utils/compare-arrays.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/lib/utils/defaults.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/lib/utils/deprecate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/lib/utils/extend.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/lib/utils/has-own-prop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/lib/utils/hooks.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/lib/utils/index-of.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/lib/utils/is-array.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/lib/utils/is-date.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/lib/utils/is-function.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/lib/utils/is-object.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/lib/utils/is-undefined.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/lib/utils/keys.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/lib/utils/map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/lib/utils/some.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/lib/utils/to-int.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/lib/utils/zero-fill.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/locale/af.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/locale/ar-ma.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/locale/ar-sa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/locale/ar-tn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/locale/ar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/locale/az.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/locale/be.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/locale/bg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/locale/bn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/locale/bo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/locale/br.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/locale/bs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/locale/ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/locale/cs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/locale/cv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/locale/cy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/locale/da.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/locale/de-at.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/locale/de.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/locale/dv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/locale/el.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/locale/en-au.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/locale/en-ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/locale/en-gb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/locale/en-ie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/locale/en-nz.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/locale/eo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/locale/es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/locale/et.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/locale/eu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/locale/fa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/locale/fi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/locale/fo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/locale/fr-ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/locale/fr-ch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/locale/fr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/locale/fy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/locale/gd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/locale/gl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/locale/he.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/locale/hi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/locale/hr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/locale/hu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/locale/hy-am.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/locale/id.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/locale/is.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/locale/it.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/locale/ja.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/locale/jv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/locale/ka.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/locale/kk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/locale/km.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/locale/ko.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/locale/ky.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/locale/lb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/locale/lo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/locale/lt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/locale/lv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/locale/me.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/locale/mk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/locale/ml.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/locale/mr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/locale/ms-my.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/locale/ms.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/locale/my.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/locale/nb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/locale/ne.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/locale/nl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/locale/nn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/locale/pa-in.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/locale/pl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/locale/pt-br.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/locale/pt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/locale/ro.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/locale/ru.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/locale/se.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/locale/si.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/locale/sk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/locale/sl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/locale/sq.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/locale/sr-cyrl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/locale/sr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/locale/ss.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/locale/sv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/locale/sw.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/locale/ta.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/locale/te.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/locale/th.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/locale/tl-ph.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/locale/tlh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/locale/tr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/locale/tzl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/locale/tzm-latn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/locale/tzm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/locale/uk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/locale/uz.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/locale/vi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/locale/x-pseudo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/locale/zh-cn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/locale/zh-tw.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/src/moment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/templates/amd-named.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/templates/amd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/templates/default.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/templates/globals.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/templates/locale-header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/moment/templates/test-header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/switchery/.bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/switchery/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/switchery/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/switchery/dist/switchery.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/switchery/dist/switchery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/switchery/dist/switchery.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/switchery/dist/switchery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/switchery/meteor/export.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/switchery/meteor/tests.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/switchery/package.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/switchery/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/switchery/switchery.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/switchery/switchery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/validator/.bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/validator/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/validator/fv.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/validator/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/validator/multifield.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/validator/validator.jquery.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/validator/validator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/bootstrap-fileupload.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/common.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/form-elements.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/gallery.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/jquery.fancybox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/validate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/file/audio/audio_1533312377.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/file/audio/audio_1533312425.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/file/img/pic_1533549705.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/audio.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/error.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/login_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/login_bg@2x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/logo_150.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/no_image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/photo/01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/photo/02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/photo/03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/photo/04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/photo/index.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/photo/login.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/photo/success.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/success.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/touxiang.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/bootstrap-fileupload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/jquery.backstretch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/jquery.backstretch.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/jquery.fancybox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/jquery.tagsinput.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/modernizr.custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/placeholder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/scripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/wangEditor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/wangEditor.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/session_file/97_ci_session54evt0qdai25fee5uj5gnq17s63g4c48" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/session_file/97_ci_session83vef6fqa92sff61ffofo5qq0h6tun7m" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/session_file/97_ci_sessiona5atv7pp7liacinl7ipgh21mbvelpv34" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/session_file/97_ci_sessionc27lon0o94stfciptj9n46njgfbsnb35" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/session_file/97_ci_sessionds52rcbgtbbqg40fbgiv6l30ffg59k9u" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/session_file/97_ci_sessionjjv0u2djo6fkc14mbbpueadtpfrltoa0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/session_file/97_ci_sessionrqimsplr3p04l4nfj4rekl4nojj99oo7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/session_file/97_ci_sessions8p4u0h97i81rrch0q811nvak1dv9ppg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sts-auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sts.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/core/Benchmark.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/core/CodeIgniter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/core/Common.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/core/Config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/core/Controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/core/Exceptions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/core/Hooks.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/core/Input.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/core/Lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/core/Loader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/core/Log.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/core/Model.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/core/Output.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/core/Router.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/core/Security.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/core/URI.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/core/Utf8.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/core/compat/hash.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/core/compat/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/core/compat/mbstring.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/core/compat/password.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/core/compat/standard.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/core/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/database/DB.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/database/DB_cache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/database/DB_driver.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/database/DB_forge.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/database/DB_query_builder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/database/DB_result.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/database/DB_utility.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/database/drivers/cubrid/cubrid_driver.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/database/drivers/cubrid/cubrid_forge.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/database/drivers/cubrid/cubrid_result.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/database/drivers/cubrid/cubrid_utility.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/database/drivers/cubrid/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/database/drivers/ibase/ibase_driver.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/database/drivers/ibase/ibase_forge.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/database/drivers/ibase/ibase_result.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/database/drivers/ibase/ibase_utility.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/database/drivers/ibase/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/database/drivers/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/database/drivers/mssql/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/database/drivers/mssql/mssql_driver.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/database/drivers/mssql/mssql_forge.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/database/drivers/mssql/mssql_result.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/database/drivers/mssql/mssql_utility.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/database/drivers/mysql/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/database/drivers/mysql/mysql_driver.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/database/drivers/mysql/mysql_forge.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/database/drivers/mysql/mysql_result.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/database/drivers/mysql/mysql_utility.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/database/drivers/mysqli/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/database/drivers/mysqli/mysqli_driver.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/database/drivers/mysqli/mysqli_forge.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/database/drivers/mysqli/mysqli_result.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/database/drivers/mysqli/mysqli_utility.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/database/drivers/oci8/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/database/drivers/oci8/oci8_driver.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/database/drivers/oci8/oci8_forge.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/database/drivers/oci8/oci8_result.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/database/drivers/oci8/oci8_utility.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/database/drivers/odbc/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/database/drivers/odbc/odbc_driver.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/database/drivers/odbc/odbc_forge.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/database/drivers/odbc/odbc_result.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/database/drivers/odbc/odbc_utility.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/database/drivers/pdo/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/database/drivers/pdo/pdo_driver.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/database/drivers/pdo/pdo_forge.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/database/drivers/pdo/pdo_result.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/database/drivers/pdo/pdo_utility.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/database/drivers/pdo/subdrivers/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/database/drivers/pdo/subdrivers/pdo_4d_driver.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/database/drivers/pdo/subdrivers/pdo_4d_forge.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/database/drivers/pdo/subdrivers/pdo_cubrid_driver.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/database/drivers/pdo/subdrivers/pdo_cubrid_forge.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/database/drivers/pdo/subdrivers/pdo_dblib_driver.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/database/drivers/pdo/subdrivers/pdo_dblib_forge.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/database/drivers/pdo/subdrivers/pdo_firebird_driver.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/database/drivers/pdo/subdrivers/pdo_firebird_forge.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/database/drivers/pdo/subdrivers/pdo_ibm_driver.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/database/drivers/pdo/subdrivers/pdo_ibm_forge.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/database/drivers/pdo/subdrivers/pdo_informix_driver.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/database/drivers/pdo/subdrivers/pdo_informix_forge.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/database/drivers/pdo/subdrivers/pdo_mysql_driver.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/database/drivers/pdo/subdrivers/pdo_mysql_forge.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/database/drivers/pdo/subdrivers/pdo_oci_driver.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/database/drivers/pdo/subdrivers/pdo_oci_forge.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/database/drivers/pdo/subdrivers/pdo_odbc_driver.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/database/drivers/pdo/subdrivers/pdo_odbc_forge.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/database/drivers/pdo/subdrivers/pdo_pgsql_driver.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/database/drivers/pdo/subdrivers/pdo_pgsql_forge.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/database/drivers/pdo/subdrivers/pdo_sqlite_driver.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/database/drivers/pdo/subdrivers/pdo_sqlite_forge.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/database/drivers/pdo/subdrivers/pdo_sqlsrv_driver.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/database/drivers/pdo/subdrivers/pdo_sqlsrv_forge.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/database/drivers/postgre/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/database/drivers/postgre/postgre_driver.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/database/drivers/postgre/postgre_forge.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/database/drivers/postgre/postgre_result.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/database/drivers/postgre/postgre_utility.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/database/drivers/sqlite/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/database/drivers/sqlite/sqlite_driver.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/database/drivers/sqlite/sqlite_forge.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/database/drivers/sqlite/sqlite_result.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/database/drivers/sqlite/sqlite_utility.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/database/drivers/sqlite3/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/database/drivers/sqlite3/sqlite3_driver.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/database/drivers/sqlite3/sqlite3_forge.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/database/drivers/sqlite3/sqlite3_result.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/database/drivers/sqlite3/sqlite3_utility.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/database/drivers/sqlsrv/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/database/drivers/sqlsrv/sqlsrv_driver.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/database/drivers/sqlsrv/sqlsrv_forge.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/database/drivers/sqlsrv/sqlsrv_result.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/database/drivers/sqlsrv/sqlsrv_utility.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/database/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/fonts/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/fonts/texb.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/helpers/array_helper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/helpers/captcha_helper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/helpers/cookie_helper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/helpers/date_helper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/helpers/directory_helper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/helpers/download_helper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/helpers/email_helper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/helpers/file_helper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/helpers/form_helper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/helpers/html_helper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/helpers/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/helpers/inflector_helper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/helpers/language_helper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/helpers/number_helper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/helpers/path_helper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/helpers/security_helper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/helpers/smiley_helper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/helpers/string_helper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/helpers/text_helper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/helpers/typography_helper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/helpers/url_helper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/helpers/xml_helper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/language/english/calendar_lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/language/english/date_lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/language/english/db_lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/language/english/email_lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/language/english/form_validation_lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/language/english/ftp_lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/language/english/imglib_lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/language/english/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/language/english/migration_lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/language/english/number_lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/language/english/pagination_lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/language/english/profiler_lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/language/english/unit_test_lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/language/english/upload_lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/language/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/libraries/Cache/Cache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/libraries/Cache/drivers/Cache_apc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/libraries/Cache/drivers/Cache_dummy.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/libraries/Cache/drivers/Cache_file.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/libraries/Cache/drivers/Cache_memcached.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/libraries/Cache/drivers/Cache_redis.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/libraries/Cache/drivers/Cache_wincache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/libraries/Cache/drivers/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/libraries/Cache/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/libraries/Calendar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/libraries/Cart.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/libraries/Driver.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/libraries/Email.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/libraries/Encrypt.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/libraries/Encryption.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/libraries/Form_validation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/libraries/Ftp.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/libraries/Image_lib.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/libraries/Javascript.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/libraries/Javascript/Jquery.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/libraries/Javascript/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/libraries/Migration.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/libraries/Pagination.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/libraries/Parser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/libraries/Profiler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/libraries/Session/Session.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/libraries/Session/SessionHandlerInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/libraries/Session/Session_driver.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/libraries/Session/drivers/Session_database_driver.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/libraries/Session/drivers/Session_files_driver.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/libraries/Session/drivers/Session_memcached_driver.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/libraries/Session/drivers/Session_redis_driver.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/libraries/Session/drivers/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/libraries/Session/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/libraries/Table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/libraries/Trackback.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/libraries/Typography.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/libraries/Unit_test.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/libraries/Upload.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/libraries/User_agent.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/libraries/Xmlrpc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/libraries/Xmlrpcs.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/libraries/Zip.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/libraries/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/.eslintignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/.umirc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/.umirc.mock.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/.vscode/settings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/.webpackrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/auto.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/mock/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/274a924fbc2b73442cd5aa78d0479c2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/IMG_5053.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/cos-js-sdk-v5.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/fastclick.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/fontFlex.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/iscroll-probe.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/iscroll.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/jquery-2.1.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/jweixin-1.2.0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/mescroll.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/mescroll.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/public/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/assets/274a924fbc2b73442cd5aa78d0479c2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/assets/GroupCopy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/assets/bar_off.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/assets/bar_on.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/assets/bar_shouye_off.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/assets/bar_shouye_on.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/assets/bar_wode_off.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/assets/bar_wode_on.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/assets/btn_dashang.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/assets/dis_bofang_off.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/assets/icon_+.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/assets/icon_bofang.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/assets/icon_canmou.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/assets/icon_dashang.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/assets/icon_dianzan_off.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/assets/icon_dianzan_on.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/assets/icon_goumai.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/assets/icon_jine.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/assets/icon_jingpin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/assets/icon_juben.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/assets/icon_paimai.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/assets/icon_pinglun.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/assets/icon_pinglun_fix.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/assets/icon_shichang.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/assets/icon_shijianting.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/assets/icon_shouye.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/assets/icon_tupian.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/assets/icon_yonghu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/assets/icon_zanting.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/assets/icon_zuire.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/assets/icon_zuixin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/assets/img_001.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/assets/img_bangdan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/assets/img_bangdan_off.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/assets/img_bofang.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/assets/img_shangyiye.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/assets/img_xiayiye.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/assets/img_xing_off.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/assets/img_xing_on.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/assets/img_xuanze_off.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/assets/img_xuanze_on.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/assets/img_zhuangtai.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/assets/length.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/assets/loading_banner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/assets/loading_luesuo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/assets/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/components/comment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/components/comment.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/components/cropper/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/components/cropper/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/components/list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/components/list.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/components/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/components/login.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/components/rate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/components/rate.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/components/scroll.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/components/scroll.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/global.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/layouts/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/layouts/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/models/example.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/comment/$comment_list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/comment/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/comment/like_list/$like.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/comment/models/comment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/comment/reward_list/$reward.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/comment/services/comment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/detai/components/ProgressBar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/detai/components/comment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/detai/components/music.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/detai/components/progressBar.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/detai/components/tab.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/detai/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/detai/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/detai/list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/detai/models/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/detai/services/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/document.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/home/adviser_tab3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/home/components/list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/home/models/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/home/selected_tab1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/home/services/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/home/story_tab2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/home/style.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/home/world_tab4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/login/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/login/models/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/login/services/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/music.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/release/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/release/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/release/models/release.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/release/services/release.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/users/auction.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/users/comment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/users/components/UserModal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/users/components/Users.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/users/components/Users.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/users/detai.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/users/forward.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/users/help.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/users/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/users/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/users/models/users.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/users/order.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/users/proposal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/users/services/users.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/pages/users/submission.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/services/example.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/themes/default.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/utils/cascader-address-options.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/utils/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/utils/music.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/utils/request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/utils/time.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/utils/tool.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/utils/url.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/theme.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webhook.php" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/config/database.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="337">
+              <caret line="77" column="21" lean-forward="true" selection-start-line="77" selection-start-column="21" selection-end-line="77" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/config/redis.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/application/config/database.php" />
+        <option value="$PROJECT_DIR$/application/config/redis.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="all-writers" type="b2602c69:ProjectViewProjectNode" />
+              <item name="all-writers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="all-writers" type="b2602c69:ProjectViewProjectNode" />
+              <item name="all-writers" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="all-writers" type="b2602c69:ProjectViewProjectNode" />
+              <item name="all-writers" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4e597cf3-3811-4f23-a8a2-ec7032b65219" name="Default Changelist" comment="" />
+      <created>1551669798836</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1551669798836</updated>
+      <workItem from="1551669802262" duration="208000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="208000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1788269" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/application/config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="77" column="21" lean-forward="true" selection-start-line="77" selection-start-column="21" selection-end-line="77" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/redis.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="Copyright.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

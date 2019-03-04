@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<phpunit bootstrap="application/tests/bootstrap.php" colors="true">
+    <testsuites>
+        <testsuite name="97Admin自动化单元测试">
+            <directory>application/tests/</directory>
+        </testsuite>
+    </testsuites>
+    <filter>
+        <whitelist>
+            <directory suffix=".php">application/controllers/</directory>
+            <directory suffix=".php">application/models/</directory>
+        </whitelist>
+    </filter>
+    <php>
+        <const name="PHPUNIT_TEST" value="1" />
+        <server name="REMOTE_ADDR" value="0.0.0.0" />
+    </php>
+    <logging>
+        <log type="coverage-text" target="php://stdout" showUncoveredFiles="false"/>
+        <log type="coverage-html" target="coverage" lowUpperBound="35" highLowerBound="70"/>
+    </logging>
+</phpunit>

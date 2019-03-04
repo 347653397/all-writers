@@ -1,0 +1,160 @@
+#loadingSd {
+    background-color: rgb(255, 247, 233);
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 999999999;
+    margin-top: 0px;
+    top: 0px;
+}
+
+#loading-center {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+#loading-center-absolute {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: 4rem;
+    width: 4rem;
+    margin-left: -2rem;
+    margin-top: -1.7rem;
+}
+
+.double-bounce {
+    width: 2rem;
+    height: 2rem;
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 0.5rem
+}
+
+.double-bounce1,
+.double-bounce2 {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #E2B979;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-animation: bounce 2.0s infinite ease-in-out;
+    -moz-animation: bounce 2.0s infinite ease-in-out;
+    -o-animation: bounce 2.0s infinite ease-in-out;
+    animation: bounce 2.0s infinite ease-in-out;
+}
+
+.double-bounce2 {
+    -webkit-animation-delay: -1.0s;
+    -moz-animation-delay: -1.0s;
+    -o-animation-delay: -1.0s;
+    animation-delay: -1.0s;
+}
+
+@-webkit-keyframes bounce {
+    0%,
+    100% {
+        -webkit-transform: scale(0.0)
+    }
+    50% {
+        -webkit-transform: scale(1.0)
+    }
+}
+
+@-moz-keyframes bounce {
+    0%,
+    100% {
+        -moz-transform: scale(0.0)
+    }
+    50% {
+        -moz-transform: scale(1.0)
+    }
+}
+
+@-o-keyframes bounce {
+    0%,
+    100% {
+        -o-transform: scale(0.0)
+    }
+    50% {
+        -o-transform: scale(1.0)
+    }
+}
+
+@keyframes bounce {
+    0%,
+    100% {
+        transform: scale(0.0);
+    }
+    50% {
+        transform: scale(1.0);
+    }
+}
+
+.loadingHidden {
+    -webkit-animation: verihidden 1s ease-out;
+    animation: verihidden 1s ease-out;
+}
+
+@-webkit-keyframes verihidden {
+    0% {
+        opacity: 1;
+    }
+    70% {
+        opacity: 0.3;
+    }
+    100% {
+        opacity: 0;
+        display: none
+    }
+}
+
+@keyframes verihidden {
+    0% {
+        opacity: 1;
+    }
+    70% {
+        opacity: 0.3;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes spinloading {
+    0% {
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes spinloading {
+    0% {
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@media screen and (max-width:768px) {
+    /*不大于768px的设备尺寸中 响应式布局的特定样式*/
+}
+
+@media screen and (max-width:360px) {}
+
+@media screen and (max-width:320px) {}

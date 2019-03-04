@@ -1,0 +1,41 @@
+import React from 'react';
+import { connect } from 'dva';
+import styles from './index.css';
+
+class IndexPage extends React.Component{
+  componentDidMount(){
+    // console.log(window.Wxaudio)
+    // let WxaudioVideo=window.Wxaudio;
+    // window.Wxaudio({ ele: '#textaudio', title: '河山大好', disc: '许嵩', src: 'music-off.mp3', width: '320px' });
+    // document.getElementById('play').onclick = function () {
+    //   wx.audioPlay()
+    // }
+
+    // document.getElementById('pause').onclick = function () {
+    //   wx.audioPause()
+    // }
+
+    // document.getElementById('cut').onclick = function () {
+    //   var src = 'http://oiq8j9er1.bkt.clouddn.com/%E6%9E%97%E4%BF%8A%E6%9D%B0%20-%20%E5%A5%B9%E8%AF%B41.mp3'
+    //   var title = '她说'
+    //   var disc = '林俊杰'
+    //   wx.audioCut(src, title, disc)
+    // }
+  }
+  render(){
+    return (
+        <div className={styles.normal}>
+        <div className="fadeIn animated">
+            <ul className={styles.list}>
+              <li>更多业务外包，涉及金融，保险，小游戏，pos</li>
+            </ul>
+            </div>
+       </div>
+    )
+  }
+}
+
+IndexPage.propTypes = {
+};
+
+export default connect()(IndexPage);

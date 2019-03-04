@@ -1,0 +1,52 @@
+:global {
+    .loginBox {
+        height: 100%;
+        background: #F6F7FD;
+        padding-top: 0.2rem;
+        .list {
+            .am-list-item.am-input-item {
+                line-height: 1.4rem;
+                height: 1.4rem
+            }
+            .am-list-item .am-input-control input::-webkit-input-placeholder {
+                font-size: 0.41463rem !important;
+                line-height: 0.8rem;
+            }
+            .am-list-item .am-input-control input {
+                font-size: 0.6rem;
+                padding: 0.5rem 0;
+            }
+            .am-input-extra {
+                max-height: 1.4rem;
+                overflow: none;
+                .btn {
+                    width: 2.5rem;
+                    height: 1rem;
+                    border: 0.01rem solid #fff;
+                    border-radius: 0.1rem;
+                    text-align: center;
+                    line-height: 1rem;
+                    color: #b2b2b2;
+                    background: #F6F7FD;
+                    &.active {
+                        background: #fff;
+                        color: @brand-primary;
+                        border: 0.01rem solid @brand-primary;
+                    }
+                }
+            }
+        }
+        .commentSubmit {
+            height: 1.2rem;
+            line-height: 1.2rem;
+            background: @brand-primary;
+            padding: 0 1rem;
+            font-size: 0.46rem;
+            text-align: center;
+            color: #fff;
+            border-radius: 1rem;
+            margin: 0.4rem;
+            box-shadow: 0 0.1rem 0.5rem #d1d1d1
+        }
+    }
+}

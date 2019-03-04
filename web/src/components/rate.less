@@ -1,0 +1,146 @@
+:global {
+    .scoreBox {
+        background: #fff;
+        overflow: hidden;
+        ul li.text {
+            height: 0.7rem;
+            line-height: 0.8rem;
+            margin-bottom: 0.3rem;
+            overflow: hidden;
+            span {
+                display: inline-block;
+                padding: 0 0.4rem;
+                color: #848999
+            }
+        }
+        /* ul {
+            margin-top: 0.2rem;
+            li {
+                height: 0.6rem;
+                line-height: 0.6rem;
+                margin-bottom: 0.4rem;
+                span {
+                    display: inline-block;
+                    float: left;
+                    width: 0.6rem;
+                    height: 0.6rem;
+                    margin-left: 0.3rem;
+                    background: url(../assets/img_xing_off.png) no-repeat center;
+                    background-size: contain;
+                    &:nth-child(1),
+                    &:last-child {
+                        width: 1.5rem;
+                        margin: 0;
+                        text-align: center;
+                        background: none;
+                    }
+                    &:nth-child(1) {
+                        font-size: 0.36rem
+                    }
+                    &:last-child {
+                        float: right;
+                        color: #848999
+                    }
+                    &.active {
+                        background: url(../assets/img_xing_on.png) no-repeat center;
+                        background-size: contain;
+                    }
+                }
+            }
+        }*/
+    }
+    @rate-prefix-cls: rc-rate;
+    @rate-star-color: #f5a623;
+    @font-size-base: 13px;
+    .@{rate-prefix-cls} {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        font-size: 18px;
+        display: inline-block;
+        vertical-align: middle;
+        font-weight: normal;
+        font-style: normal;
+        outline: none;
+        &-disabled &-star {
+            &:before,
+            &-content:before {
+                cursor: default;
+            }
+            &:hover {
+                transform: scale(1);
+            }
+        }
+        &-star {
+            margin: 0;
+            padding: 0;
+            display: inline-block;
+            margin-right: 8px;
+            position: relative;
+            transition: all .3s;
+            color: #e9e9e9;
+            cursor: pointer;
+            line-height: 1.5;
+            &-first,
+            &-second {
+                transition: all .3s;
+            }
+            &-focused,
+            &:hover {
+                transform: scale(1.1);
+            }
+            &-first {
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 50%;
+                height: 100%;
+                overflow: hidden;
+                opacity: 0;
+            }
+            &-half &-first,
+            &-half &-second {
+                opacity: 1;
+            }
+            &-half &-first,
+            &-full &-second {
+                color: @rate-star-color;
+            }
+            &-half:hover &-first,
+            &-full:hover &-second {
+                color: tint(@rate-star-color, 30%);
+            }
+        }
+    }
+    @icon-url: "//at.alicdn.com/t/font_r5u29ls31bgldi";
+    @font-face {
+        font-family: 'anticon';
+        src: url('@{icon-url}.eot');
+        /* IE9*/
+        src: url('@{icon-url}.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('@{icon-url}.woff') format('woff'),
+        /* chrome、firefox */
+        url('@{icon-url}.ttf') format('truetype'),
+        /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+        url('@{icon-url}.svg#iconfont') format('svg');
+        /* iOS 4.1- */
+    }
+    .anticon {
+        font-style: normal;
+        vertical-align: baseline;
+        text-align: center;
+        text-transform: none;
+        line-height: 1;
+        text-rendering: optimizeLegibility;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        &:before {
+            display: block;
+            font-family: "anticon" !important;
+        }
+    }
+    .anticon-star:before {
+        content: "\e660";
+    }
+}

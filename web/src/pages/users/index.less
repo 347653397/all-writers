@@ -1,0 +1,264 @@
+:global {
+    .centerUserBox {
+        .top {
+            margin-top: 0.2rem;
+            padding: 0.4rem;
+            overflow: hidden;
+            background: #fff;
+            text-align: center;
+            line-height: 0.6rem;
+            .userImg {
+                width: 2rem;
+                height: 2rem;
+                border-radius: 50%;
+                overflow: hidden;
+                background: #eee;
+                margin: 0.4rem auto;
+                img {
+                    width: 100%;
+                }
+            }
+            h3 {
+                color: @brand-primary;
+                font-size: 0.46rem;
+            }
+            p {
+                font-size: 0.42rem;
+                color: #848999
+            }
+        }
+        .list {
+            margin-top: 0.2rem;
+            .am-list-item .am-list-line .am-list-content,
+            .am-list-item .am-list-line .am-list-extra {
+                line-height: 2.2;
+            }
+            .moneny {
+                span {
+                    display: inline-block;
+                    height: 0.8rem;
+                    line-height: 0.8rem;
+                    background: @brand-primary;
+                    color: #fff;
+                    border-radius: 0.1rem;
+                    padding: 0 0.2rem;
+                    font-size: 0.36rem;
+                    margin-left: 0.2rem
+                }
+            }
+        }
+    } //提现页面
+    .forwardBox {
+        padding-top: 0.2rem;
+        .list {
+            .am-list-item.am-input-item {
+                line-height: 1.4rem;
+                height: 1.4rem;
+                overflow: hidden
+            }
+            .am-list-item .am-input-control input::-webkit-input-placeholder {
+                font-size: 0.41463rem !important;
+                line-height: 0.8rem;
+            }
+            .am-list-item .am-input-control input {
+                font-size: 0.7rem;
+                padding: 0.4rem 0;
+            }
+            .am-list-item .am-input-control .fake-input-container .fake-input {
+                font-size: 0.7rem;
+            }
+        }
+        .text {
+            display: inline-block;
+            padding: 0.3rem;
+            color: #B2B2B2;
+            line-height: 0.6rem;
+        }
+        .commentSubmit {
+            height: 1.2rem;
+            line-height: 1.2rem;
+            background: @brand-primary;
+            padding: 0 1rem;
+            font-size: 0.46rem;
+            text-align: center;
+            color: #fff;
+            border-radius: 1rem;
+            margin: 0.4rem;
+            box-shadow: 0 0.1rem 0.5rem #d1d1d1
+        }
+    } //订单
+    .orderBox {
+        margin-bottom: 0.2rem;
+        height: 100%;
+        ul {
+            overflow: hidden;
+            li {
+                margin-top: 0.2rem;
+                min-height: 3.2rem;
+                padding: 0.4rem;
+                padding-top: 0;
+                border-bottom: 0.01rem solid #EBEBEB;
+                background: #fff;
+                .orderNumber {
+                    height: 1rem;
+                    line-height: 1rem;
+                    color: #848999
+                }
+                .left {
+                    float: left;
+                    width: 2.8rem;
+                    height: 2.4rem;
+                    background: #f5f5f5 url(../../assets/loading_luesuo.png) no-repeat center;
+                    background-size: contain;
+                    img {
+                        width: 100%;
+                    }
+                }
+                .right {
+                    margin-left: 3rem;
+                    display: flex;
+                    -webkit-box-pack: justify;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    height: 2.4rem;
+                    h3 {
+                        font-size: 0.4rem;
+                        line-height: 0.6rem;
+                    }
+                    p {
+                        color: #848999;
+                    }
+                }
+                .orderBtn {
+                    text-align: right;
+                    margin-top: 0.4rem;
+                    span {
+                        margin-left: 0.3rem;
+                        display: inline-block;
+                        font-size: 0.35rem;
+                        color: #9B9B9B;
+                        line-height: 0.7rem;
+                        border: 1px solid #fff;
+                        padding: 0 0.2rem;
+                        border-radius: 0.1rem;
+                        background: #f5f5f5;
+                        &.color1 {
+                            border-color: #666;
+                            background: #fff;
+                            color: #666;
+                        }
+                        &.color2 {
+                            border-color: #666;
+                            background: #fff;
+                            color: #666;
+                        }
+                        &.color3 {
+                            border-color: @brand-primary;
+                            color: @brand-primary;
+                            background: #fff;
+                        }
+                    }
+                }
+            }
+        }
+    } //建议
+    .proposalBox {
+        padding-top: 0.4rem;
+        .commentText {
+            margin: 0.4rem;
+            margin-top: 0;
+            padding-right: 0.2rem;
+            border-radius: 0.1rem;
+        }
+    } //帮助
+    .helpBox {
+        padding-top: 0.2rem;
+        .tabs {
+            background: #fff;
+            padding: 0 0.4rem;
+            li {
+                min-height: 1.2rem;
+                border-bottom: 0.01rem solid #E5E5E5;
+                h3 {
+                    line-height: 1.2rem;
+                    font-size: 0.4rem;
+                    padding-right: 0.4rem;
+                    position: relative;
+                    .icon {
+                        position: absolute;
+                        top: 0.4rem;
+                        right: 0;
+                        color: #9B9B9B
+                    }
+                }
+                .nr {
+                    padding: 0.2rem 0;
+                    line-height: 0.7rem;
+                    color: #999999;
+                    font-size: 0.38rem;
+                    border-top: 0.01rem dashed #d1d1d1
+                }
+            }
+        }
+    } //明细
+    .userDetai {
+        .moeny {
+            background: #fff;
+            text-align: center;
+            padding: 0.6rem 0;
+            font-size: 0.36rem;
+            p {
+                color: #999999;
+            }
+            h2 {
+                font-size: 0.7rem;
+                font-weight: bold;
+                color: #575651;
+                margin: 0.4rem 0;
+            }
+            .btn {
+                display: inline-block;
+                padding: 0.2rem 0.4rem;
+                background: @brand-primary;
+                color: #fff;
+                border-radius: 0.2rem;
+            }
+        }
+        .moenyList {
+            margin-top: 0.2rem;
+            background: #fff;
+            ul li {
+                border-bottom: 0.01rem solid #d1d1d1;
+                padding: 0.4rem 0;
+                overflow: hidden;
+                margin-left: 0.4rem;
+                position: relative;
+                h3 {
+                    font-size: 0.4rem;
+                    font-weight: bold;
+                    margin-bottom: 0.2rem;
+                    &.active {
+                        font-size: 0.38rem;
+                        font-weight: normal;
+                    }
+                }
+                p {
+                    font-size: 0.36rem;
+                    color: #999999
+                }
+                span {
+                    position: absolute;
+                    right: 0.2rem;
+                    top: 0.9rem;
+                    font-size: 0.4rem
+                }
+            }
+        }
+    }
+    .am-number-keyboard-wrapper table tr .am-number-keyboard-item.keyboard-confirm.am-number-keyboard-item-disabled {
+        background-color: @brand-primary
+    }
+    .am-number-keyboard-wrapper table tr .am-number-keyboard-item.keyboard-confirm.am-number-keyboard-item-active {
+        background-color: @brand-primary
+    }
+}

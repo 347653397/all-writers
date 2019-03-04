@@ -1,0 +1,7 @@
+{
+  "extends": "umi",
+  "globals": {
+    "map": true,
+    "compose": true
+  }
+}

@@ -1,0 +1,35 @@
+:global {
+    .progress-bar-wrapper {
+        position: relative;
+        width: 100%;
+        background-color: #ebe5d2;
+        height:0.1rem;
+        border-radius:0.2rem;
+        .percentage {
+            width: 0;
+            background-color: @brand-primary;
+            height: 100%;
+        }
+        .point {
+            position: absolute;
+            top: 50%;
+            left: 0;
+            width: 0.4rem;
+            height:0.4rem;
+            border-radius: 50%;
+            background-color: #ffffff;
+            box-shadow: 0 0 0.4rem #cecece;
+            &:after {
+                position: absolute;
+                content: '';
+                width: 0.15rem;
+                height:0.15rem;
+                border-radius: 50%;
+                background-color: @brand-primary;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+        }
+    }
+}

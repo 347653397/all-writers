@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <title>人人编剧</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="renderer" content="webkit|ie-comp|ie-stand">
+  <meta name="format-detection" content="telephone=no,email=no" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <link rel="shortcut icon" href="./bitbug_favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="http://pre.startechsoft.cn/dist/static/animate.css">
+  <link rel="stylesheet" href="http://pre.startechsoft.cn/dist/static/style.css">
+  <script type="text/javascript" src="http://pre.startechsoft.cn/dist/static/fontFlex.js"></script>
+</head>
+
+<body>
+  <div id="loadingSd">
+    <div id="loading-center">
+      <div id="loading-center-absolute">
+        <div class="double-bounce">
+          <div class="double-bounce1"></div>
+          <div class="double-bounce2"></div>
+        </div>
+        <p style="color:#666;font-size:0.35rem;text-align:center">正在加载...</p>
+      </div>
+    </div>
+  </div>
+  <div id="root"></div>
+  <audio id="audioElement" crossOrigin="anonymous"> </audio>
+  <script type="text/javascript" src="http://test.startechsoft.cn/dist/static/jquery-2.1.1.min.js"></script>
+  <script type="text/javascript" src="http://test.startechsoft.cn/dist/static/jweixin-1.2.0.js"></script>
+  <script type="text/javascript" src="http://test.startechsoft.cn/dist/static/iscroll-probe.js"></script>
+  <script type="text/javascript" src="http://test.startechsoft.cn/dist/static/cos-js-sdk-v5.min.js"></script>
+  <script>
+    if ('addEventListener' in document) {
+      window.addEventListener('load', function () {
+        document.getElementById("loadingSd").className = "loadingHidden";
+        setTimeout(function () {
+          document.getElementById("loadingSd").style.display = "none";
+        }, 0);
+      }, false);
+      //解决移动端首次刷新不自动播放问题，解决等待微信端页面加载完毕 触发音频播放
+      document.addEventListener('WeixinJSBridgeReady', function () {
+        document.getElementById("audioElement").play();
+      })
+    }
+  </script>
+  <!-- 百度统计 -->
+  <script>
+    var _hmt = _hmt || [];
+    (function () {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?b5e539a57631345c70e0b0ca67d0195f";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+</body>
+
+</html>

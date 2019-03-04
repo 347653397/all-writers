@@ -1,0 +1,141 @@
+:global{
+	        .comment {
+            background: #fff;
+            padding: 0.4rem;
+            padding-bottom: 0;
+            .commentEdit {
+                padding: 0.2rem;
+                padding-right: 0;
+                overflow: hidden;
+                span {
+                    display: inline-block;
+                    padding: 0.2rem 0.4rem;
+                    padding-right: 0;
+                    color: #999;
+                    float: right;
+                    text-align: right
+                }
+            }
+            .commentTitle{
+                height: 1rem;
+                line-height: 1rem;
+                background: url(../assets/icon_zuire.png) no-repeat left center;
+                padding-left:0.6rem;
+                background-size: 6%;
+                color:#f4001e;
+                &.comm{
+                    background: url(../assets/icon_zuixin.png) no-repeat left center;
+                    background-size: 6%;
+                    color:@brand-primary
+                }
+            }
+            ul {
+                li {
+                    border-bottom: 0.01rem solid #EBEBEB;
+                    padding: 0.3rem 0;
+                    padding-left: 1.4rem;
+                    position: relative;
+                    .user {
+                        display: inline-block;
+                        position: absolute;
+                        top: 0.3rem;
+                        left: 0;
+                        width: 1.2rem;
+                        height: 1.2rem;
+                        border-radius: 50%;
+                        overflow: hidden;
+                        background: #eee;
+                        img {
+                            width: 100%;
+                        }
+                    }
+                    .title {
+                        height: 0.6rem;
+                        line-height: 0.6rem;
+                        overflow: hidden;
+                        span {
+                            display: inline-block;
+                            color: #000;
+                            font-size: 0.38rem
+                        }
+                        .left {
+                            float: left;
+                            .price {
+                                color: red;
+                                font-size: 0.36rem;
+                                margin-left: 0.3rem
+                            }
+                        }
+                        .right {
+                            float: right;
+                            span {
+                                &:nth-child(1) {
+                                    margin-right: 0.6rem;
+                                    width: 0.5rem;
+                                    height: 0.5rem;
+                                    background: url(../assets/icon_dashang.png) no-repeat center;
+                                    background-size: contain
+                                }
+                                &:nth-child(2) {
+                                   padding-left:0.6rem;
+                                    color:#E2B979;
+                                    height: 0.5rem;
+                                     margin-right: 0.3rem;
+                                    background: url(../assets/icon_dianzan_off.png) no-repeat 0rem center;
+                                    background-size: contain;
+                                    display:inline;
+                                    position:relative;
+                                    top:-0.1rem;
+                                    &.active {
+                                        background: url(../assets/icon_dianzan_on.png) no-repeat 0rem center;
+                                        background-size: contain;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .nr {
+                        margin-top: 0.1rem;
+                        line-height: 0.6rem;
+                        color: #848999;
+                        font-size: 0.36rem
+                    }
+                    .date {
+                        line-height: 0.6rem;
+                        color: #C8C8C8;
+                        font-size: 0.32rem;
+                    }
+                    .userTag{
+                    margin:0.2rem 0;
+                    overflow:hidden;
+                    span{
+                    float:left;
+                      display:inline-block;
+                      width:0.8rem;
+                      height:0.8rem;
+                      background:#eee;
+                      border-radius:50%;
+                      overflow:hidden;
+                      margin-right:0.2rem;
+                      img{
+                      width:100%
+                      }
+                    }
+                    font{
+                        border-radius:0;
+                        line-height:0.8rem;
+	                    float:right;
+	                    background:none;
+	                   color:#E2B979;
+	                   display:inline
+	                }
+                    p{
+                      color:#999;
+                      font-size:0.35rem;
+                      padding:0.21rem 0;
+                    }
+                    }
+                }
+            }
+        }
+}

@@ -1,0 +1,22 @@
+.normal {}
+
+.operation a {
+    margin: 0 .5em;
+}
+
+.create {
+    margin: 1.5em 0;
+}
+
+#tab-bar.demo {
+    display: flex;
+    flex-direction: column;
+}
+
+#tab-bar .demoName {
+    height: 40px;
+}
+
+#tab-bar .demo-preview-item .am-tab-bar {
+    background-color: white;
+}

@@ -1,0 +1,573 @@
+:global {
+    .DetaiBox {
+        .top {
+            height: 4.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #f5f5f5 url(../../assets/loading_banner.png) no-repeat center;
+            background-size: contain;
+            overflow: hidden;
+            img {
+                width: 100%;
+            }
+        }
+        .list {
+            margin-top: 0.2rem;
+            background: #fff;
+            padding: 0.2rem 0.4rem;
+            .title {
+                height: 0.6rem;
+                line-height: 0.6rem;
+                margin: 0.2rem 0;
+                clear: both;
+                h2 {
+                    border-left: 0.1rem solid @brand-primary;
+                    padding-left: 0.2rem;
+                    font-weight: bold;
+                    color: @brand-primary;
+                    float: left;
+                }
+                span {
+                    float: right;
+                    color: @brand-primary
+                }
+            }
+            ul {
+                padding-top: 0.6em;
+                li {
+                    background: #F6F7FD;
+                    padding: 0 0.2rem;
+                    height: 1.2rem;
+                    line-height: 1.2rem;
+                    margin-bottom: 0.2rem;
+                    border-radius: 0.2rem;
+                    h3 {
+                        font-size: 0.4rem;
+                        float: left;
+                    }
+                    .checkout {
+                        float: left;
+                        display: inline-block;
+                        width: 0.6rem;
+                        height: 0.6rem;
+                        background: url(../../assets/img_xuanze_off.png) no-repeat center;
+                        background-size: contain;
+                        margin-top: 0.32rem;
+                        margin-right: 0.1rem;
+                        &.active {
+                            background: url(../../assets/img_xuanze_on.png) no-repeat center;
+                            background-size: contain;
+                        }
+                    }
+                    .btnRight {
+                        float: right;
+                        font-size: 0.35rem;
+                        color: #fff;
+                        background: @brand-primary;
+                        display: inline-block;
+                        height: 0.7rem;
+                        line-height: 0.7rem;
+                        padding: 0 0.2rem;
+                        border-radius: 0.1rem;
+                        margin-top: 0.27rem;
+                        &.active {
+                            color: #848999;
+                            background: url(../../assets/icon_bofang.png) no-repeat left center;
+                            background-size: contain;
+                            padding: 0;
+                            padding-left: 0.8rem;
+                            &.zanting {
+                                background: url(../../assets/icon_zanting.png) no-repeat left center;
+                                background-size: contain;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .detaiBoxOut {
+        opacity: 0;
+        -webkit-opacity: 0;  
+         -moz-opacity: 0;  
+    }
+    .listBtnPlay {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 1.4rem;
+        line-height: 1.4rem;
+        background: #fff;
+        box-shadow: 0 -0.01rem 0.5rem #cacaca;
+        .left {
+            padding-left: 0.4rem;
+            float: left;
+            color: #848999
+        }
+        .right {
+            float: right;
+            strong {
+                font-size: 0.46rem;
+                color: #FFC824
+            }
+            span {
+                display: inline-block;
+                height: 1.4rem;
+                background: @brand-primary;
+                padding: 0 1rem;
+                font-size: 0.46rem;
+                margin-left: 0.3rem;
+                color: #fff
+            }
+        }
+        .btn {
+            background: @brand-primary;
+            color: #fff;
+            text-align: center;
+            font-size: 0.46rem;
+        }
+    } //内容-评论-评分
+    .detaiContent {
+        margin-top: 0.2rem;
+        .tab {
+            height: 1.2rem;
+            display: flex;
+            justify-content: space-between;
+            background: #fff;
+            li {
+                width: 100%;
+                line-height: 1.2rem;
+                text-align: center;
+                border-bottom: 0.05rem solid #fff;
+                font-size: 0.38rem;
+                color: #848999;
+                &.active {
+                    color: @brand-primary;
+                    border-color: @brand-primary
+                }
+            }
+        }
+        .introduce {
+            background: #fff;
+            padding: 0.4rem;
+            line-height: 0.6rem;
+            color: #848999;
+            overflow: hidden;
+        }
+        .comment {
+            background: #fff;
+            padding: 0.4rem;
+            padding-bottom: 0;
+            .commentEdit {
+                padding: 0.2rem;
+                padding-right: 0;
+                overflow: hidden;
+                span {
+                    display: inline-block;
+                    padding: 0.2rem 0.4rem;
+                    padding-right: 0;
+                    color: #999;
+                    float: right;
+                    text-align: right
+                }
+            }
+            .commentTitle{
+                height: 1rem;
+                line-height: 1rem;
+                background: url(../../assets/icon_zuire.png) no-repeat left center;
+                padding-left:0.6rem;
+                background-size: 6%;
+                color:#f4001e;
+                &.comm{
+                    background: url(../../assets/icon_zuixin.png) no-repeat left center;
+                    background-size: 6%;
+                    color:@brand-primary
+                }
+            }
+            ul {
+                li {
+                    border-bottom: 0.01rem solid #EBEBEB;
+                    padding: 0.3rem 0;
+                    padding-left: 1.4rem;
+                    position: relative;
+                    .user {
+                        display: inline-block;
+                        position: absolute;
+                        top: 0.3rem;
+                        left: 0;
+                        width: 1.2rem;
+                        height: 1.2rem;
+                        border-radius: 50%;
+                        overflow: hidden;
+                        background: #eee;
+                        img {
+                            width: 100%;
+                        }
+                    }
+                    .title {
+                        height: 0.6rem;
+                        line-height: 0.6rem;
+                        overflow: hidden;
+                        span {
+                            display: inline-block;
+                            color: #000;
+                            font-size: 0.38rem
+                        }
+                        .left {
+                            float: left;
+                            .price {
+                                color: red;
+                                font-size: 0.36rem;
+                                margin-left: 0.3rem
+                            }
+                        }
+                        .right {
+                            float: right;
+                            span {
+                              
+                                &:nth-child(1) {
+                                    margin-right: 0.6rem;
+                                    height: 0.5rem;
+                                    background: url(../../assets/icon_dashang.png) no-repeat center;
+                                    background-size: contain;
+                                    display:inline-block;
+                                }
+                                &:nth-child(2) {
+                                    padding-left:0.6rem;
+                                    color:#E2B979;
+                                    height: 0.5rem;
+                                     margin-right: 0.3rem;
+                                    background: url(../../assets/icon_dianzan_off.png) no-repeat left center;
+                                    background-size: contain;
+                                    display:inline;
+                                    position:relative;
+                                    top:-0.1rem;
+                                    &.active {
+                                        background: url(../../assets/icon_dianzan_on.png) no-repeat left center;
+                                        background-size: contain;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .nr {
+                        margin-top: 0.1rem;
+                        line-height: 0.6rem;
+                        color: #848999;
+                        font-size: 0.36rem
+                    }
+                    .date {
+                        line-height: 0.6rem;
+                        color: #C8C8C8;
+                        font-size: 0.32rem;
+                    }
+                }
+            }
+        }
+    }
+    .commentModal {
+        .am-modal-body {
+            text-align: left
+        }
+    }
+    .homeFixed {
+        position: fixed;
+        right: 0.6rem;
+        li {
+            color: @brand-primary;
+            width: 1rem;
+            height: 1rem;
+            border-radius: 50%;
+            box-shadow: 0 0 0.4rem rgba(0, 0, 0, 0.28);
+            margin-bottom: 0.2rem;
+            opacity: 0.7;
+        }
+        li.commentIcon {
+            background: url('../../assets/icon_pinglun_fix.png') no-repeat center;
+            background-size: contain;
+        }
+        li.history {
+            background: url(../../assets/icon_shouye.png) no-repeat center;
+            background-size: contain;
+        }
+    }
+    .rewardModal {
+        & .am-modal-content .am-modal-body {
+            padding: 0.6rem 0;
+            overflow: none;
+        }
+        .am-modal-button:last-child,
+        .am-modal-button:first-child {
+            height: 1.2rem;
+            line-height: 1.2rem;
+            background: @brand-primary;
+            font-size: 0.46rem;
+            text-align: center;
+            color: #fff;
+            border-radius: 1rem;
+            margin: 0.6rem 0.4rem;
+            box-shadow: 0 0.1rem 0.5rem #d1d1d1;
+            &::before {
+                display: none
+            }
+        }
+        .am-modal-button:first-child {
+            background: #fff;
+            color: @brand-primary
+        }
+        input {
+            color: #333;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            border: 0.01rem solid #cacaca;
+            border-radius: 0.2rem;
+            text-align: center;
+            background-color: transparent;
+            line-height: 1;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            width: 3.5rem;
+            margin: 0 auto;
+            vertical-align: middle;
+            font-size: 0.7rem;
+            padding: 0.3rem 0;
+            height: 1.4rem;
+            background: none;
+            position: relative;
+            z-index: 222
+        }
+        .rewardInput {
+            height: 1.4rem;
+            width: 4.5rem;
+            margin: 0 auto;
+            position: relative;
+            margin-bottom:0.2rem;
+        }
+        .rewardPlaceholder {
+            display: inline-block;
+            position: absolute;
+            top: 0;
+            left: 1.4rem;
+            color: #999;
+            font-size: 0.4rem;
+            height: 1.4rem;
+            line-height: 1.4rem;
+            z-index: 0
+        }
+        .commentText {
+            margin:0 0.4rem;
+            background: #F6F7FD;
+            border-radius: 0.2rem;
+            padding: 0 0.2rem
+        }
+    }
+    .am-modal-alert-content .am-result::after {
+        background-color: #fff !important;
+    }
+    .detaiInfoView {
+        overflow: hidden;
+        background: #fff;
+        .title {
+            font-size: 0.4rem;
+            line-height: 0.6rem;
+            color: @brand-primary
+        }
+        .content {
+            height: 3.2rem;
+            padding: 0.4rem 0 0.4rem 0.4rem;
+            .left {
+                float: left;
+                width: 2.8rem;
+                height: 2.4rem;
+                background: #f5f5f5 url(../../assets/loading_luesuo.png) no-repeat center;
+                background-size: contain;
+                overflow: hidden;
+                img {
+                    width: 100%;
+                }
+            }
+            .center {
+                margin-left: 0.2rem;
+                overflow: hidden;
+                float: left;
+                width: 6.5rem;
+                .box {
+                    margin-top: 0.2rem;
+                    overflow: hidden;
+                }
+                .le {
+                    width: 4.4rem;
+                    float: left;
+                }
+                .ri {
+                    float: right
+                }
+                span {
+                    display: block;
+                    width: 50%;
+                    margin-bottom: 0.25rem;
+                    padding-left: 0.5rem;
+                    color: #999;
+                    font-size: 0.34rem;
+                    float: left
+                }
+                .tag:nth-child(1) {
+                    width: 100%;
+                    overflow: hidden;
+                    span:nth-child(1) {
+                        background: url(../../assets/icon_yonghu.png) no-repeat -0.05rem center;
+                        background-size: 20%;
+                    }
+                    span:nth-child(2) {
+                        background: url(../../assets/img_bofang.png) no-repeat center left;
+                        background-size: contain;
+                    }
+                }
+                .tag:nth-child(2) {
+                    span:nth-child(1) {
+                        background: url(../../assets/icon_jine.png) no-repeat center left;
+                        background-size: contain;
+                    }
+                    span:nth-child(2) {
+                        background: url(../../assets/icon_goumai.png) no-repeat center left;
+                        background-size: contain;
+                    }
+                }
+            }
+        }
+        .right {
+            width: 2rem;
+            height: 1rem;
+            float: right;
+            border-left: 1px solid #f1f1f1;
+            text-align: center;
+            position: relative;
+            background: url(../../assets/btn_dashang.png) no-repeat center -0.15rem;
+            background-size: 40%;
+            .rewardIcon {
+                padding-top: 0.6rem;
+                color: @brand-primary;
+            }
+        }
+        .line {
+            padding: 0.4rem;
+            display: flex;
+            justify-content: center;
+            border-top: 0.01rem dashed #c7c7c7;
+            margin-top: 0.01rem;
+            align-items: center;
+            .play {
+                width: 10%;
+                height: 1rem;
+                background: url(../../assets/icon_bofang.png) no-repeat center;
+                background-size: contain;
+                &.active {
+                    background: url(../../assets/icon_zanting.png) no-repeat center;
+                    background-size: contain;
+                }
+                &.playDisd{
+                    background: url(../../assets/dis_bofang_off.png) no-repeat center;
+                    background-size: contain;
+                }
+            }
+            .pro {
+                position: relative;
+                height: 0.4rem;
+                width: 68%;
+                padding: 0 0.2rem;
+                bottom: -0.15rem;
+                .proMsg {
+                    padding-top: 0.25rem;
+                    color: #999;
+                    font-size: 0.32rem
+                }
+            }
+            .date {
+                height: 0.4rem;
+                width: 22%;
+                color: #C8C8C8;
+                font-size: 0.32rem;
+            }
+        }
+        .acutionTag{
+            padding:0.4rem;
+            padding-top:0.2rem;
+            display: flex;
+            justify-content:center;
+            justify-content: space-between;
+            padding-left:1rem;
+            background: url(../../assets/icon_paimai.png) no-repeat 0.3rem 0.15rem;
+            background-size:0.6rem;
+            align-items: center;
+            height:1.2rem;
+            span{
+             &:nth-child(1){
+               color:#6B400D;
+             }
+            }
+            span.btn{
+              display:inline-block;
+              background:#FDCE83;
+              color:#fff;
+              font-size:0.35rem;
+              padding:0.2rem 0.3rem;
+              border-radius:2rem;
+            }
+        }
+    } //连载列表
+    .listDetaiBox {
+        .top {
+            height: 4.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #f5f5f5 url(../../assets/loading_banner.png) no-repeat center;
+            background-size: contain;
+            overflow: hidden;
+            img {
+                width: 100%;
+            }
+        }
+    }
+    .listBox.listDetai ul li .right {
+        justify-content: baseline;
+        h3 {
+            display: block;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            -webkit-line-clamp: 1;
+        }
+        p {
+            padding-top: 0.2rem;
+            line-height: 0.5rem;
+            font-size: 0.34rem;
+        }
+    }
+    .contentTopLine {
+        margin-top: 0.2rem;
+        padding-top: 0.2rem;
+        background: #fff;
+        .title {
+            height: 0.6rem;
+            line-height: 0.6rem;
+            clear: both;
+            padding-left: 0.2rem;
+            h2 {
+                border-left: 0.1rem solid @brand-primary;
+                padding-left: 0.2rem;
+                font-weight: bold;
+                color: @brand-primary;
+                float: left;
+            }
+        }
+        .nr {
+            line-height: 0.6rem;
+            color: #848999;
+            padding: 0.2rem 0.4rem
+        }
+    }
+}

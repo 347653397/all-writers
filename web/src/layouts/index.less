@@ -1,0 +1,105 @@
+:global {
+    .contaionSeccern {
+        position: relative;
+        background: #f5f5f9;
+        height: 100%;
+        & * {
+            /* -webkit-box-sizing: border-box; */
+            box-sizing: border-box;
+        }
+    }
+    .contaionBar {
+        background: #fff;
+        box-sizing: border-box;
+        height: 1.4rem;
+        border-top: 1PX solid #eee;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        -webkit-transition: bottom .2s;
+        transition: bottom .2s;
+        z-index: 100;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-transition-duration: .2s;
+        transition-duration: .2s;
+        -webkit-transition-property: height bottom;
+        transition-property: height bottom;
+        -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+        justify-content: space-around;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        .navCenter{
+            position: absolute;
+            bottom:0.3rem;
+            left:0;
+            right:0;
+            margin:0 auto;
+            width:1.7rem;
+            height: 1.7rem;
+            background: url(../assets/GroupCopy.png) no-repeat center;
+            background-size: contain;
+            border-radius: 50%;
+            box-shadow:0 -0.2rem 0.7rem rgba(0, 0, 0, 0.19);
+        }
+        .navTag {
+            height: 1.4rem;
+            width: 100%;
+            text-align: center;
+            .navicon {
+                width: 0.5rem;
+                height: 0.5rem;
+                margin: 0 auto;
+                margin-top: 0.25rem;
+                img {
+                    width: 100%;
+                }
+                &.Icon1 {
+                    background: url(../assets/bar_shouye_off.png) no-repeat center;
+                    background-size: contain;
+                }
+                &.IconCurrent1 {
+                    background: url(../assets/bar_shouye_on.png) no-repeat center;
+                    background-size: contain;
+                    &+p {
+                        color: @brand-primary
+                    }
+                }
+                &.Icon2 {
+                    background: url(../assets/bar_wode_off.png) no-repeat center;
+                    background-size: contain;
+                }
+                &.IconCurrent2 {
+                    background: url(../assets/bar_wode_on.png) no-repeat center;
+                    background-size: contain;
+                    &+p {
+                        color: @brand-primary
+                    }
+                }
+            }
+            .navicon-title {
+                margin-top: 0.1rem;
+                font-size: 0.32rem;
+            }
+        }
+    }
+    .audioPlayIcon {
+        position: fixed;
+        bottom: 3rem;
+        right: 0.6rem;
+        background: url('../assets/img_zhuangtai.png') no-repeat center;
+        background-size: contain;
+        width: 1rem;
+        height: 1rem;
+        border-radius: 50%;
+        box-shadow: 0 0 0.4rem rgba(0, 0, 0, 0.28);
+        -webkit-animation: spinloading 4s linear infinite;
+        animation: spinloading 4s linear infinite;
+        opacity: 0.7;
+    }
+}
